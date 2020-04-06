@@ -1,0 +1,44 @@
+@charset "ISO-8859-1";
+body { 
+  background-image: url('bg.jpg');
+    height: 100%;
+    background-position: center center;
+    background-attachment: fixed;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+#adh {
+  border: 2px solid #FFFF;
+  padding:13px;
+  margin: 8px 0;
+  border-radius: 25px;
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+  width: 180%;
+  outline: 0;
+  font-size: 24px;
+  letter-spacing: 35px;
+}
+
+#sub {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+#fon {
+  font-family: "Arial"
+}
